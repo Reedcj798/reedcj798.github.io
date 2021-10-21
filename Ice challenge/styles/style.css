@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+main {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 750px;
+    margin: auto;
+    background-color: white;
+    padding: 0;
+}
+h1, p {
+    text-align: center;
+}
+.img {
+    grid-column: 1/2;
+    margin: auto;
+}
+.form {
+    grid-column: 2/3;
+    margin: auto;
+}
+#img {
+    width: 350px;
+    height: 100%;
+}
+#email {
+    border-radius: 10px;
+    width: 275px;
+    height: 30px;
+    margin: 0 48px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#name {
+    border-radius: 10px;
+    width: 275px;
+    height: 30px;
+    margin: 0 48px;
+    margin-bottom: 10px;
+}
+#recieve {
+    margin: 3px 3px 3px 65px;
+}
+#button {
+    border-radius: 20px;
+    color: white;
+    background-color: darkorange;
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    margin: 10px 100px;
+    text-align: center;
+}
