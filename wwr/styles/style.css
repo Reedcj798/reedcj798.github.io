@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&family=Lato&display=swap');
+head title {
+    font-family: 'Gluten','',sans-serif;
+}
 body {
     background-color: #3F37C9;
+    font-family: 'Lato','',sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #3F37C9;
 }
 footer {
     background-color: #3F37C9;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer h3 {
     color: white;
@@ -19,6 +32,9 @@ footer a:hover {
 }
 footer h3 a:hover {
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
 }
 h4 {
     color: white;
@@ -34,6 +50,10 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
+}
+main section img {
+    box-sizing: border-box;
 }
 nav a:hover {
     background-color: #4CC9F0;
@@ -49,6 +69,9 @@ nav a:hover {
 #hero-img {
     width: 100%;
 }
+#logo_link{
+    padding-top: 5px;
+}
 .button-box {
     text-align: center;
 }
@@ -56,6 +79,10 @@ nav a:hover {
     background-color: #3F37C9;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #4CC9F0;
@@ -63,16 +90,29 @@ nav a:hover {
 }
 .msg {
     background-color: #480CA8;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .home-title {
     color: white;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .msg h2 {
     color: white;
 }
 .msg p {
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+.card-img {
+    border: 10px solid black;
+}
+.rivers_card, .camping_card, .rapids_card {
+    margin: 200px 0;
 }
