@@ -184,7 +184,7 @@ nav a:hover {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
-/*@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -224,4 +224,4 @@ nav a:hover {
     footer {
         margin-top: 25px;
     }
-}*/
+}
