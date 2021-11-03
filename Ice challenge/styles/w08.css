@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    background-color: darkred;
+}
+.compile{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+    text-align: center;
+    margin: auto;
+    border: 2px black;
+}
+section {
+    background-color: white;
+}
+/* Please note that each section was taken on by differnt people, 
+that is why the coding is so different for each, this is simply my 
+atempt to compile all of it.*/
+.num2 {
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    margin: 10px auto;
+}
+.num2 #button {
+    border-radius: 5px;
+    color: white;
+    background-color: #4040ff;
+    width: 75px;
+    height: 35px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid white, 1px solid black;
+}
+#img{
+    width: 450px;
+    height: auto;
+    max-width: 450px;
+}
+.num2 h1, p {
+    font-family: "Open Sans";
+}
+.num2 p {
+    color: grey;
+    font-size: 15px;
+}
+.num2 h1 {
+    color: rgb(54, 54, 54);
+    font-size: 25px;
+}
+
+/*section 4*/
+.num4 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 45%;
+}
+
+.num4 html{
+    margin:0 auto;
+    width: 50%;
+    max-width: 500px;
+}
+.num4 body{
+    text-align:center;
+}
+.num4 h1{
+    font-size:20px;
+}
+.num4 #kevin{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: 20px;
+    column-gap: 20px;
+}
+.num4 #tim{
+    text-decoration: underline black;
+    grid-column: 3/4;
+    font-size: 50px;
+}
+ 
+.num4 .ethan{
+    grid-column:2/3;
+    font-size: 50px;
+}
+.num4 #ryan{
+    grid-row: 2/3;
+    grid-column: 1/-1;
+}
+#bold{
+    font-weight: bold;
+}
+#steve{
+ 
+}
+#bill{
+ 
+}
+.num4 button{
+    background-color: grey;
+    max-width: 75px;
+    grid-row: 3/4;
+    grid-column: 3/4;
+    border-radius: 10px;
+    max-height: 60px;
+}
+.num4 #up{
+    background-color: rgb(62, 107, 255);
+    max-width: 200px;
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+/*section 1*/
+ 
+.saved {
+    text-align: center;
+    border-radius: 20px;
+}
+ 
+.saved p {
+    font-size: 50px;
+    font-family: 'Open Sans';
+}
+
+/*section 3*/
+ 
+.holdsec {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 4fr;
+    margin: 0 auto;
+}
+#oops {
+    font-size: 40px;
+    color: black;
+    font-family: "Open Sans";
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#wrong {
+    font-size: 25px;
+    color: grey;
+    font-family: "Open Sans";
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.holdsec #button {
+    font-size: 25px;
+    color: white;
+    font-family: "Open Sans";
+    max-width: 100px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#why {
+    font-size: 25px;
+    color: blue;
+    font-family: "Open Sans";
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
