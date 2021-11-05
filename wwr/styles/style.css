@@ -72,6 +72,9 @@ nav a:hover {
     background-color: #4CC9F0;
     color:#480CA8;
 }
+#content {
+    max-width: 1600px;
+}
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
@@ -108,9 +111,10 @@ nav a:hover {
     align-self: center;
 }
 .logo {
-    width: 150px;
+    width: 80px;
     height: auto;
 }
+
 .button-box {
     text-align: center;
 }
