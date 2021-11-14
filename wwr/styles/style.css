@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Gluten&family=Lato&display=swap');
 head title {
-    font-family: 'Gluten','',sans-serif;
+    font-family: 'Gluten',sans-serif;
 }
 body {
     background-color: #3F37C9;
-    font-family: 'Lato','',sans-serif;
+    font-family: 'Lato',sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -13,13 +13,13 @@ h2 {
     margin: 0;
 }
 header {
-    background-color: #3F37C9;
+    background-color: #480CA8;
     display: grid;
     grid-template-columns: 150px auto;
 }
 footer {
-    background-color: #3F37C9;
-    padding: 25px 50px;
+    background-color: #480CA8;
+    padding: 15px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
@@ -44,7 +44,7 @@ footer .social img {
 h4 {
     color: white;
 }
-main {
+.home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
@@ -94,10 +94,19 @@ nav a:hover {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
+    margin: 0;
     margin-top: 100px;
+    padding-top: 25px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    padding: 0px
+}
+#hero-msg h1{
+    margin-bottom: 15px;
+}
+#hero-msg h4{
+    margin-top: 0;
 }
 #background {
     height: 725px;
@@ -228,4 +237,65 @@ nav a:hover {
     footer {
         margin-top: 25px;
     }
+}
+
+/*This section is fo page 2 specific formating*/
+.b-grid {
+    max-width: 1600px;
+}
+.b-grid img {
+    width: 100%;
+}
+.salmon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 30px;
+    margin-top: 25px;
+    border-bottom: 10px solid #4CC9F0;
+    border-top: 10px solid #4CC9F0;
+    padding-top: 125px;
+}
+.salmon .river-msg h1 {
+    margin-top: -50px;
+}
+.desolation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 50px;
+    margin-top: 75px;
+    border-bottom: 10px solid #4CC9F0;
+}
+.canyon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 50px;
+    margin-top: 75px;
+    border-bottom: 10px solid #4CC9F0;
+}
+.river-msg h1 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Gluten',sans-serif;
+    margin: 5px 0 10px;
+    padding: 0;
+
+}
+.river-msg h2 {
+    font-size: 20px;
+    font-family: 'Lato',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.river-msg {
+    padding: 0 30px 30px 30px;
+}
+#button {
+    border-radius: 20px;
+    color: black;
+    background-color: #4CC9F0;
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    margin: 10px 100px;
+    text-align: center;
 }
