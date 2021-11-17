@@ -290,7 +290,7 @@ nav a:hover {
     padding: 0 30px 30px 30px;
 }
 #button {
-    border-radius: 20px;
+    border-radius: 10px;
     color: black;
     background-color: #4CC9F0;
     width: 150px;
