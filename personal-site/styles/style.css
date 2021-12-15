@@ -469,3 +469,18 @@ tr:hover {
     transform: none;
     opacity: 1;
 }
+/*-------------------contact us formating-----------------------*/
+.contact-us label {
+    color: #396E94;
+}
+.contact-us {
+    margin: 50px auto;
+    width: 500px;
+}
+.contact-us h2 {
+    text-align: center;
+    color: #396E94;
+}
+.contact-us form {
+    margin-left: -15px;
+}
