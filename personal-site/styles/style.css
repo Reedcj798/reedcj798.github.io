@@ -327,6 +327,10 @@ p {
     margin: 10px 100px;
     text-align: center;
 }
+#button:hover {
+    opacity: .75;
+    transform: scale(1.1);
+}
                                     /* form stuff*/
 form {
     margin: 0 auto;
@@ -411,4 +415,57 @@ tr:hover {
 #t-head:hover {
     background-color: #2d105a;
     color: cyan;
+}
+/*--------------------page 2 stuff----------------------*/
+.page-2-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 100px;
+    margin-top: 50px;
+    column-gap: 25px;
+}
+#paint-img {
+    grid-column: 3/10;
+    grid-row: 2/3;
+    margin: auto;
+}
+#paint-msg {
+    grid-column: 11/15;
+    grid-row: 2/3;
+    text-align: center;
+    margin: auto;
+}
+#photo-img {
+    grid-column: 10/17;
+    grid-row: 3/4;
+}
+#photo-msg {
+    grid-column: 4/9;
+    grid-row: 3/4;
+    text-align: center;
+    margin: auto;
+}
+#wood-img {
+    grid-column: 3/10;
+    grid-row: 4/5;
+}
+#wood-msg {
+    grid-column: 11/16;
+    grid-row: 4/5;
+    text-align: center;
+    margin: auto;
+}
+.page-2-grid h1{
+    grid-column: 1/-1;
+    text-align: center;
+    color: #396E94;
+    text-justify: bottom;
+    margin-bottom: -50px;
+}
+.page-2-grid #button {
+    margin-top: 30px;
+}
+.page-2-grid .card-img:hover {
+    transform: none;
+    opacity: 1;
 }
